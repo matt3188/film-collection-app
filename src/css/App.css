@@ -1,0 +1,9 @@
+#root {
+  text-align: center;
+}
+input {
+  font-size: 2em;
+  padding: 10px;
+  width: 50%;
+  margin: 2em auto;
+}
