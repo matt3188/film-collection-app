@@ -6,7 +6,6 @@ import API from '../api/api';
 var MovieStore = Fluxxor.createStore({
   initialize: function(params) {
     this.state = {
-      issues: [],
       movies: {}
     };
 
