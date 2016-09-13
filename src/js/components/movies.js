@@ -17,7 +17,7 @@ module.exports = React.createClass({
     };
   },
   render: function() {
-    console.log('render', this.state, this.state.movies);
+    console.log('render', this.state);
     var movies = [];
 
     if (this.state.movies && this.state.movies.Search) {
