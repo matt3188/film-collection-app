@@ -10,16 +10,30 @@ input {
 
 .coming-soon {
   width: 100%;
-  min-height: auto;
+  height: 250px;
   color: #FFF;
-  background-color: grey;
+  background-color: rgb(186, 186, 186);
+  padding-top: 15px;
+}
+.coming-soon:after {
+  content: 'Image Coming soon';
+  text-align: center;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: 1;
+  padding-top: 2em;
+  display: block;
+  text-transform: uppercase;
+  color: rgba(10,60,150, 0.8);
+  color: rgb(97, 97, 97);
+  background-color: rgb(186, 186, 186);
+  text-shadow: rgb(224, 224, 224) 1px 1px 0px;
 }
 
 .movie {
   position: relative;
-  max-height: 250px;
-  overflow: hidden;
   margin-bottom: 15px;
+  display: block;
 }
 .movie h2 {
   position: absolute;
@@ -45,8 +59,5 @@ input {
   }
   .movie:nth-child(even) {
     margin-right: 0;
-  }
-  .movie-poster {
-    // max-width: 250px;
   }
 }
