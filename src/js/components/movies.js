@@ -23,7 +23,7 @@ module.exports = React.createClass({
     if (this.state.movies && this.state.movies.Search) {
       this.state.movies.Search.forEach(function(movie) {
         movies.push(
-          <MovieThumb key={movie.imdbID} movie={movie} />
+          <MovieThumb movie={movie} />
         );
       });
     } else {
